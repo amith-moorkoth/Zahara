@@ -1,0 +1,56 @@
+
+<!-- We don't need full layout here, because this page will be parsed with Ajax-->
+<!-- Top Navbar-->
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="left"><a href="#" class="back link"><i class="fa fa-angle-left"></i><span>Back</span></a></div>
+        <div class="center sliding">Settings</div>
+    </div>
+</div>
+<div class="pages">
+    <!-- Page, data-page contains page name-->
+    <div data-page="notification" class="page">
+        <!-- Scrollable page content-->
+        <div class="page-content">
+            <div class="content-block-title">General</div>
+            <div class="list-block tablet-inset">
+                <ul>
+                    <li>
+                        <a href="about.html" class="item-link">
+                            <div class="item-content">
+                                <div class="item-inner">
+                                    <div class="item-title">About</div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="frames/settings/update/index.html" class="item-link">
+                            <div class="item-content">
+                                <div class="item-inner">
+                                    <div class="item-title">Software Update</div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <div class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title label" style="width: auto;">Modern UI</div>
+                                <div class="item-input" style="width: auto;">
+                                    <label class="label-switch" data-colorable="yes" style="float: right;">
+                                        <input type="checkbox" name="switchiOS8" onchange="if($(this).is(':checked')){br7.params.modern.enabled=true;br7.applyModernMode();}else{br7.removeModernMode()}">
+                                        <div class="checkbox"></div>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>

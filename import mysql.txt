@@ -1,0 +1,4 @@
+LOAD DATA INFILE 'C:/Users/amith/Desktop/New folder (2)/a.csv' IGNORE 
+INTO TABLE pin
+FIELDS TERMINATED BY ',' 
+LINES TERMINATED BY '\n'

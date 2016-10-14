@@ -1,0 +1,56 @@
+
+<!-- We don't need full layout here, because this page will be parsed with Ajax-->
+<!-- Top Navbar-->
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="left"><a href="#" class="back link"><i class="fa fa-angle-left"></i><span>Back</span></a></div>
+    <div class="center sliding">Wallet</div>
+  </div>
+</div>
+<div class="pages">
+  <!-- Page, data-page contains page name-->
+  <div data-page="shop-list" class="page">
+    <!-- Scrollable page content-->
+    <div class="page-content">
+      <!-- Tabs, tabs wrapper -->
+      <div class="tabs-animated-wrap">
+        <div class="tabs  tabs-top">
+          <!-- Tab 1, active by default -->
+          <div id="wallet-tab1" class="tab active" style="overflow: scroll;overflow: auto">
+            <div id="MyWallet" style="width: 100%">
+              <div class="row">
+                <div class="col-100 tablet-50">
+                  <div class="single-revenue">
+                    <div class="revenue-icon"><i class="fa fa-usd"></i></div>
+                    <div class="revenue-title">
+                      <h4>2501</h4>
+                      <p>Total Wallet</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-100 tablet-50">
+                  <div class="single-revenue">
+                    <div class="revenue-icon sales"><i class="fa fa-shopping-cart"></i></div>
+                    <div class="revenue-title">
+                      <h4>320</h4>
+                      <p>Wallet Buffer</p>
+                    </div>
+                  </div>
+                </div>
+                </div>
+            </div>
+          </div>
+          <!-- Tab 2 -->
+          <div id="wallet-tab2" class="tab" style="overflow: scroll;overflow: auto">
+            <div id="WalletHistory" style="width: 100%">b</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="toolbar tabbar">
+      <div class="toolbar-inner">
+        <a href="#wallet-tab1" class="tab-link active" style="margin-top: -35px;border-right:1px solid black;">MyWallet</a>
+        <a href="#wallet-tab2" class="tab-link" style="margin-top: -35px;">Wallet History</a>
+      </div>
+    </div>
+  </div>

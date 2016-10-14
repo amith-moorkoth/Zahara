@@ -1,0 +1,108 @@
+
+<!-- We don't need full layout here, because this page will be parsed with Ajax-->
+<!-- Top Navbar-->
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="left"><a href="#" class="back link"><i class="fa fa-angle-left"></i><span>Back</span></a></div>
+    <div class="center sliding">Service</div>
+  </div>
+</div>
+<div class="pages">
+  <!-- Page, data-page contains page name-->
+  <div data-page="shop-list" class="page">
+    <!-- Scrollable page content-->
+    <div class="page-content">
+		<div class="list-block">
+			<ul>
+				<li>
+					<div class="item-content">
+						<div class="item-inner">
+							<div class="item-title label">Description</div>
+						</div>
+					</div>
+					<Textarea placeholder="Description" style="width: 100%;height: 100px"></Textarea>
+				</li>
+				<li>
+					<div class="item-content">
+						<div class="item-inner">
+							<div class="item-title label">Price:</div>
+						</div>
+					</div>
+					<input type="text" placeholder="Price" style="width: 100%;">
+				</li>
+				<li><a href="#" class="item-link smart-select">
+					<select name="job" maxlength="3">
+						<optgroup label="nurse">
+							<option value="honda" selected>Public Care</option>
+							<option value="lexus">Family Care</option>
+							<option value="mazda">Adult Care</option>
+							<option value="nissan">Pediatrics</option>
+							<option value="toyota">Neonate</option>
+							<option value="toyota">Womens Care</option>
+							<option value="toyota">Mental Care</option>
+						</optgroup>
+					</select>
+					<div class="item-content">
+						<div class="item-inner">
+							<div class="item-title">Job Type</div>
+							<div class="item-after">Choose</div>
+						</div>
+					</div></a>
+				</li>
+				Location:
+				<li>
+					<a href="#" class="item-link smart-select">
+						<select name="State">
+							<option value="Kerala" selected="">Kerala</option>
+							<option value="Karnataka">Karnataka</option>
+							<option value="Tamil Nadu">Tamil Nadu</option>
+							<option value="Andra Pradesh">Andra Pradesh</option>
+						</select>
+						<div class="item-content">
+							<div class="item-inner">
+								<div class="item-title">State</div>
+								<div class="item-after">Choose</div>
+							</div>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="item-link smart-select">
+						<select name="District">
+							<option value="Trivandrum" selected="">Trivandrum</option>
+							<option value="Kollam">Kollam</option>
+							<option value="Ernakulam">Ernakulam</option>
+							<option value="Kannur">Kannur</option>
+						</select>
+						<div class="item-content">
+							<div class="item-inner">
+								<div class="item-title">District</div>
+								<div class="item-after">Choose</div>
+							</div>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="item-link smart-select">
+						<select name="Taluk" multiple>
+							<option value="statue" selected="">statue</option>
+							<option value="statue">statue</option>
+							<option value="statue Nadu">statue</option>
+							<option value="Andra statue">statue</option>
+						</select>
+						<div class="item-content">
+							<div class="item-inner">
+								<div class="item-title">Taluk</div>
+								<div class="item-after">Choose</div>
+							</div>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="button active" style="background: #e03636;padding:10px;height: 50px;">Add</a>
+				</li>
+			</ul>
+		</div>
+    </div>
+  </div>
+</div>
